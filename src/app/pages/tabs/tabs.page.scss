@@ -1,0 +1,24 @@
+// tabs.page.scss
+
+// Estilos para los botones
+ion-tab-button {
+    // Estilos generales para todos los botones
+    background-color: #3498db; // Color de fondo
+    color: #ffffff; // Color del texto
+  
+    // Espaciado y tamaño del texto
+    --padding-start: 10px;
+    --padding-end: 10px;
+    font-size: 14px;
+  
+    // Estilos cuando el botón está activo
+    &.selected {
+      background-color: #2c3e50; // Cambia el color de fondo cuando está seleccionado
+    }
+  
+    // Estilos para el ícono
+    ion-icon {
+      font-size: 24px; // Tamaño del ícono
+    }
+  }
+  
